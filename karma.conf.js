@@ -11,8 +11,7 @@ module.exports = function(config) {
  
     // list of files / patterns to load in the browser 
     files: [
-      'https://npmcdn.com/babel-polyfill@6.8.0/dist/polyfill',
-      //'https://rawgit.com/angular/zone.js/master/dist/zone.js',
+      'node_modules/babel-polyfill/dist/polyfill.js',
       'node_modules/zone.js/dist/zone.js',
       'spec/**/*.spec.js'
     ],
