@@ -19,5 +19,8 @@
     "karma-jasmine-html-reporter": "^0.2.0",
     "watchify": "^3.7.0",
     "zone.js": "^0.6.12"
+  },
+  "devDependencies": {
+    "karma-source-map-support": "^1.1.0"
   }
 }
